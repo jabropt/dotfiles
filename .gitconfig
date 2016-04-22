@@ -16,7 +16,7 @@
   rb = rebase
 [core]
 	editor = emacs
-	excludesfile = /Users/tyamagu2/.global_gitignore
+	excludesfile = ~/.gitignore
 [pager]
   log = diff-highlight | less
   show = diff-highlight | less
