@@ -52,8 +52,8 @@
 
 ;; ocaml
 (depends-on "tuareg")
+(depends-on "caml")
 (depends-on "merlin")
-(depends-on "flycheck-ocaml")
 
 ;; js
 (depends-on "js2-mode")
