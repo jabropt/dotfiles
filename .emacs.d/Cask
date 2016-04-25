@@ -50,6 +50,11 @@
 (depends-on "elixir-mode")
 (depends-on "flymake-jshint")
 
+;; ocaml
+(depends-on "tuareg")
+(depends-on "merlin")
+(depends-on "flycheck-ocaml")
+
 ;; js
 (depends-on "js2-mode")
 (depends-on "coffee-mode")
