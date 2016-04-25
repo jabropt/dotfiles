@@ -78,3 +78,6 @@ export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 eval "$(rbenv init -)"
 export PATH="$HOME/.rbenv/shims:$PATH"
 eval "$(direnv hook zsh)"
+
+# opam
+. ~/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
