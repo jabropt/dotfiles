@@ -21,6 +21,10 @@
 (ad-activate 'enh-ruby-mode-set-encoding)
 (setq-default enh-ruby-not-insert-magic-comment t)
 
+(add-hook 'ruby-mode-hook
+          (lambda ()
+            (modify-syntax-entry ?: ".")))
+
 (require 'ruby-electric)
 (add-hook 'enh-ruby-mode-hook '(lambda () (ruby-electric-mode t)))
 (setq ruby-electric-expand-delimiters-list nil)
