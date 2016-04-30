@@ -2,6 +2,7 @@
 (source melpa)
 (source marmalade)
 
+(depends-on "ac-emoji")
 (depends-on "auto-complete")
 (depends-on "anzu")
 (depends-on "bind-key")
@@ -15,6 +16,7 @@
 (depends-on "flycheck")
 (depends-on "flycheck-cask")
 (depends-on "flycheck-pos-tip")
+(depends-on "git-commit")
 (depends-on "git-gutter")
 (depends-on "hl-line")
 (depends-on "htmlize")

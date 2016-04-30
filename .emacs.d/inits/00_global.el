@@ -64,6 +64,14 @@
   :bind (("M-p" . git-gutter:previous-hunk)
          ("M-n" . git-gutter:next-hunk)))
 
+(use-package magit
+  :init (add-hook 'git-commit-mode-hook
+                  (lambda ()
+                    (progn
+                      ('auto-complete-mode)
+                      ('ac-emoji-setup))))
+  :bind (("C-x g" . magit-status)))
+
 (use-package flycheck
   :init (progn
           (add-hook 'after-init-hook 'global-flycheck-mode))
@@ -91,3 +99,7 @@
 
 (use-package yasnippet
   :init (yas-global-mode 1))
+
+(set-fontset-font
+ t 'symbol
+    (font-spec :family "Apple Color Emoji") nil 'prepend)
