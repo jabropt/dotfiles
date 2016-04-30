@@ -65,11 +65,9 @@
          ("M-n" . git-gutter:next-hunk)))
 
 (use-package magit
-  :init (add-hook 'git-commit-mode-hook
-                  (lambda ()
-                    (progn
-                      ('auto-complete-mode)
-                      ('ac-emoji-setup))))
+  :init
+  (add-hook 'git-commit-mode-hook 'auto-complete-mode)
+  (add-hook 'git-commit-mode-hook 'ac-emoji-setup)
   :bind (("C-x g" . magit-status)))
 
 (use-package flycheck
