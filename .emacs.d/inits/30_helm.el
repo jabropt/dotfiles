@@ -25,3 +25,7 @@
      (define-key helm-gtags-mode-map (kbd "C-c <") 'helm-gtags-previous-history)
      (define-key helm-gtags-mode-map (kbd "C-c >") 'helm-gtags-next-history)
      (define-key helm-gtags-mode-map (kbd "M-,") 'helm-gtags-pop-stack)))
+
+;; hatena bookmark
+(setq helm-hatena-bookmark:username "jabropt")
+(helm-hatena-bookmark:initialize)
