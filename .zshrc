@@ -25,6 +25,9 @@ alias gdcw='git diff --cached --ignore-all-space'
 alias grb='git rebase'
 alias gf='git fetch'
 alias gl='git l'
+alias gg='git grep'
+alias gbr='git browse-remote'
+alias gbrp='git browse-remote --pr'
 
 alias v=vagrant
 alias e=emacs
