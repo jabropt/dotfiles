@@ -42,7 +42,6 @@
 (show-paren-mode 1)
 (global-font-lock-mode 1)
 
-
 ;; packages
 (use-package hl-line
   :init (global-hl-line-mode 1)
@@ -82,6 +81,7 @@
 (use-package open-junk-file
   :commands open-junk-file
   :config (setq open-junk-file-format "~/junk/%Y%m%d-%H%M%S."))
+  :bind (("C-x j" . open-junk-file)))
 
 (use-package recentf
   :init (recentf-mode 1)
