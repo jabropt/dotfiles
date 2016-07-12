@@ -7,6 +7,9 @@ colors
 autoload -U compinit
 compinit
 
+# hub
+function git(){hub "$@"}
+
 # aliases
 alias ls='ls -F -a'
 alias ll='ls -l'
