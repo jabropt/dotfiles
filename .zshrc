@@ -11,6 +11,7 @@ compinit
 function git(){hub "$@"}
 
 # aliases
+alias git=hub
 alias ls='ls -F -a'
 alias ll='ls -l'
 
