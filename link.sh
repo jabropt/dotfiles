@@ -4,4 +4,5 @@ ln -sf ~/dotfiles/.gitconfig ~/.gitconfig
 ln -sf ~/dotfiles/.gitignore ~/.gitignore
 ln -sf ~/dotfiles/.zshrc ~/.zshrc
 ln -sf ~/dotfiles/.zsh ~/.zsh
+ln -sf ~/dotfiles/.zsh ~/.tmuxinator
 ln -sf ~/dotfiles/.tmux.conf ~/.tmux.conf
